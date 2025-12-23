@@ -1,0 +1,22 @@
+# FastAPI and Server
+fastapi>=0.104.1
+uvicorn[standard]>=0.24.0
+
+# Environment Variables
+python-dotenv>=1.0.0
+
+# LangChain and AI
+langchain-google-genai>=1.0.10
+langgraph>=0.2.0
+
+# Data Validation (let pip resolve the correct version)
+pydantic>=2.7.4,<3.0.0
+
+# Typing Extensions
+typing-extensions>=4.8.0
+
+# CORS and HTTP
+python-multipart>=0.0.6
+
+# Additional utilities
+requests>=2.31.0

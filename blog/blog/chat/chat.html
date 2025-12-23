@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inko - Write Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <div class="logo">
+            <h1>Inko</h1>
+            <p>Your AI Blog Manager</p>
+        </div>
+
+        <a href="../home/index.html" class="nav-item">
+            <div class="nav-icon">🏠</div>
+            <span>Dashboard</span>
+        </a>
+
+        <a href="chat.html" class="nav-item active">
+            <div class="nav-icon">✍️</div>
+            <span>Write Blog</span>
+        </a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="chat-header">
+            <h2>✍️ Blog Writer Assistant</h2>
+            <p>Let me help you create amazing blog posts!</p>
+        </div>
+
+        <div class="chat-container">
+            <div class="chat-messages" id="chatMessages">
+                <!-- Messages will appear here -->
+            </div>
+
+            <div class="loading" id="loading" style="display: none;">
+                <div class="loading-dots">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+            <div class="chat-input-area">
+                <input type="text" id="chatInput" placeholder="Type your message here..." autocomplete="off">
+                <button id="sendBtn">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
